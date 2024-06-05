@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Metas con Descripcion -->
+  <meta name="description" content="Portfolio Personal de Agustina Mailen Velazquez - Diseñadora Web">
+  <meta name="keywords" content="portfolio, diseño web, web developer, web designer, proyectos, desarrollo web">
+  <meta name="author" content="Agustina Mailen Velazquez">
+  <title>Rick and Morty</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./Favicon.ico" type="image/x-icon">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="./style.css">
+  <!--Zona Fontawesome - Icons-->
+  <script src="https://kit.fontawesome.com/eae8fc4e25.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="header-title">Rick and Morty</h1>
+  </header>
+  <main class="contenedor">
+    <form>
+      <label for="state">Seleccione un estado:</label>
+      <select name="state" id="state">
+        <option value="all" selected>Todos los personajes</option>
+        <option value="Alive">Con Vida</option>
+        <option value="Dead">Muertos</option>
+        <option value="unknown">Desconocido</option>
+      </select>
+    </form>
+    <section id="contenedor-tarjetas" class="contenedor-tarjetas"></section>
+  </main>
+  <footer>
+    <p>Made with ❤️ by Agustina Velazquez ✨ FullStack - 24123 NodeJS 2024 </p>
+  </footer>
+  <!--Zona Script-->
+  <script src="./fetch.js"></script>
+</body>
+
+</html>
